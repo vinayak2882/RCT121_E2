@@ -12,7 +12,7 @@ function RegisterTwo  (){
           
             <Input mb={5} placeholder="enter your address" onChange={(e)=>{setAddress(e.target.value)}}></Input>
             <Input mb={5} placeholder="enter your number" onChange={(e)=>{setNum(e.target.value)}}></Input>
-            <Link to='/'> prev </Link>
+            <Link to='/register/one'> prev </Link>
             <Link to='/dashboard'> Submit </Link>
             {/* <Button ml={5}>Submit</Button> */}
         </Box>
