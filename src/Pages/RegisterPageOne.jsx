@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
     return (
         
         <Box border='1px solid black' margin='auto'textAlign='center' w='40%' p={5} mt={10} bg="skyblue" display='grid'>
-      
+       <h2>Registration - Page : 1</h2>
             <Input mb={5} placeholder="enter your name" onChange={(e)=>{setName(e.target.value)}}></Input>
             <Input mb={5} placeholder="enter your email" onChange={(e)=>{setEmail(e.target.value)}}></Input>
             <Link to='/register/two'> Next </Link>

@@ -4,9 +4,9 @@ function Dashboard(){
     return(
         <div>
             <h1>Dashboard</h1>
-            GameOver
+           <h3>Success Your Registration</h3>
 
-            <Link to="/" element={<div><h1>Home</h1></div>}/>
+           <Link to='/'>Home</Link>
         </div>
     )
 }

@@ -11,10 +11,10 @@ import { Box, Text } from "@chakra-ui/react"
  const Navbar = ()=>{
 
     return (
-        <Box borderBottom='1px solid black' bg='pink' textAlign='center' >
+        <Box borderBottom='1px solid black' bg='cyan' textAlign='center' w='30%' margin='auto' >
             <Link to='/register/one'>
-                <Text color='white'>click on Registration to go Registration</Text>
-                <Text fontSize='5xl' color='white'>Registration</Text>
+                <Text color='black'>click on Registration to go Registration</Text>
+                <Text fontSize='5xl' color='black'>Registration</Text>
             </Link>
         </Box>
     )
